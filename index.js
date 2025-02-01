@@ -12,7 +12,7 @@ const app = express();
 
 
 (async()=>{
-    await mongoose.connect(DB_URL).then(()=>{console.log("mongoDB is Connected !")}).catch(()=>{
+    await mongoose.connect('mongodb+srv://contactManager:contactManager@contactmanager.dynyi.mongodb.net/?retryWrites=true&w=majority&appName=contactManager').then(()=>{console.log("mongoDB is Connected !")}).catch(()=>{
         console.log("Error in Database Connection !")})
     
 })();

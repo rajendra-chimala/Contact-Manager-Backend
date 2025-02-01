@@ -5,7 +5,7 @@ const router = express.Router();
 const {isAuthenticated} = require("../Middlewares/auth")
 
 
-router.get("/all",isAuthenticated,getAll);
+router.get("/all",getAll);
 router.post("/create",isAuthenticated,createContact)
 
 router.get("/:id",isAuthenticated,getByID);

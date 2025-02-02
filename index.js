@@ -20,7 +20,7 @@ const app = express();
 app.use(express.json());
 app.use("/api",require('./Router/userRouter.js'));
 app.get('/',(req,res)=>{
-    res.end("Hello")
+    res.end("<h1 style=`background:red`>This is Day 1 Project of #7Day #7BackendChallenge.<h1>")
 })
 app.use("/api/contact/",require('./Router/contactRoute'));
 

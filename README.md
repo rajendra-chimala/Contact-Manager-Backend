@@ -1,1 +1,7 @@
-#The project is Deployed on Vercel !
+# Contact Manager Application 
+
+* Create Contact
+* Delete Contact
+* Update Contact
+
+  
